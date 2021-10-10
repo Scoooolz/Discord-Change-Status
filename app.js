@@ -1,5 +1,5 @@
 const variables = require("./config.json");
-const allowUserBotting = require("discord.js.userbot");
+const allowUserBotting = require("discord.js-userbot")
 
 const { Client } = require("discord.js");
 const client = new Client();
@@ -44,3 +44,4 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
 	console.log(`Web is running!`);
 });
+
