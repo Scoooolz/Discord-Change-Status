@@ -18,7 +18,7 @@ module.exports = () => {
 			"No BOT variable detected. Please add true or false to continue."
 		);
 	if (variables.TOKEN === "" || !variables.TOKEN)
-		return console.log("No token detected. Please add token.");
+		return console.log("No token detected. Please add the token.");
 	if (presences.STATUS_NAME === "" || presences.STATUS_TYPE === "")
 		return console.log(
 			"Please add STATUS_NAME or STATUS_TYPE for continue!"
@@ -32,7 +32,8 @@ module.exports = () => {
 		);
 
 	client.on("ready", () => {
-		console.log(`Success to change ${client.user.tag} status!`);
+		console.log(`Success to change ${client.user.tag} status!`); 
+		if(variables.STATUS_DELAY < 15) console.log('Settings under 15 in STATUS_DELAY is not recommended.\nYou can get banned because spamming.')
 
 		setInterval(() => {
 			state = (state + 1) % presences.length;
