@@ -32,8 +32,11 @@ module.exports = () => {
 		);
 
 	client.on("ready", () => {
-		console.log(`Success to change ${client.user.tag} status!`); 
-		if(variables.STATUS_DELAY < 15) console.log('Settings under 15 in STATUS_DELAY is not recommended.\nYou can get banned because spamming.')
+		console.log(`Success to change ${client.user.tag} status!`);
+		if (variables.STATUS_DELAY < 15)
+			console.log(
+				"Settings under 15 in STATUS_DELAY is not recommended.\nYou can change it to under 15 before you got ban."
+			);
 
 		setInterval(() => {
 			state = (state + 1) % presences.length;
