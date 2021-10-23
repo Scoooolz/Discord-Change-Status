@@ -110,7 +110,7 @@ module.exports = () => {
 
 		fs.renameSync("./configschema.json", "./config.json");
 		fs.writeFileSync("./config.json", JSON.stringify(finalCode));
-		term.brightGreen("The automatic installations is complete. If you want to changing your status. Go to status.json and modify for the status!");
-		return term.brightYellow("Trying to restart app.") && child.execSync('node .')
+		term.brightGreen("The automatic installations is complete. If you want to changing your status. Go to status.json and modify for the status!\n");
+		return term.brightYellow("Please manually restart yout app.") && process.exit()
 	}
 };

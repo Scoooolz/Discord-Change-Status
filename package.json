@@ -1,6 +1,6 @@
 {
   "name": "dcs",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Based with Discord.js to change user or bot Status.",
   "main": "app.js",
   "engines": {
