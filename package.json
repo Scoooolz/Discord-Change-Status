@@ -15,8 +15,11 @@
     "url": "git+https://github.com/Scoooolz/DCS.git"
   },
   "keywords": [
-    "Discord.js",
-    "Node.js"
+    "discordjs",
+    "nodejs",
+    "discord",
+    "js",
+    "javascript"
   ],
   "author": "Scoooolz",
   "license": "MIT",
