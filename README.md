@@ -1,9 +1,7 @@
 # Information
 
-{% hint style="warning" %}
 **Heads up!**\
 ****The Discord Change Status Guide is still a work in progress.
-{% endhint %}
 
 ## Discord Change Status
 

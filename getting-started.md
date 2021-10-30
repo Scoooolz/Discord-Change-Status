@@ -8,6 +8,4 @@ You can download the repo in [here](https://github.com/Scoooolz/Discord-Change-S
 
 ## First Steps
 
-{% hint style="warning" %}
 The steps is not done yet. Maybe tomorrow!
-{% endhint %}
