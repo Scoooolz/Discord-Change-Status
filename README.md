@@ -1,7 +1,6 @@
 # Information
 
-**Heads up!**\
-****The Discord Change Status Guide is still a work in progress.
+**Heads up!** The Discord Change Status Guide is still a work in progress.
 
 ## Discord Change Status
 
