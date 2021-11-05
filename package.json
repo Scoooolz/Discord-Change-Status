@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/Scoooolz/DCS#readme",
   "dependencies": {
+    "ascii-table": "^0.0.9",
     "discord.js": "^12.5.3",
     "discord.js-userbot": "github:Scoooolz/discord.js-userbot",
     "express": "^4.17.1",
