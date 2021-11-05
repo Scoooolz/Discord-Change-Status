@@ -23,7 +23,7 @@ module.exports = () => {
 			process.exit()
 		);
 	if (
-		presences.STATUS_TYPE === "STREAMING" &&
+		`${presences.STATUS_TYPE}`.toUpperCase() === "STREAMING" &&
 		presences.STATUS_TYPE_URL === ""
 	)
 		return (
@@ -45,7 +45,7 @@ module.exports = () => {
 					) && process.exit()
 				);
 			client.user.setActivity(presence.STATUS_NAME, {
-				type: presence.STATUS_TYPE,
+				type: `${presence.STATUS_TYPE}`.toUpperCase(),
 				url: presence.STATUS_TYPE_URL,
 			});
 		}, variables.STATUS_DELAY * 1000);
