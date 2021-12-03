@@ -1,7 +1,7 @@
 module.exports = () => {
 	const { Client } = require("discord.js");
 	const client = new Client();
-	const variables = require("../config.json");
+	const variables = process.env || require("../config.json");
 	const allowUserBotting = require("discord.js-userbot");
 	let state = 0;
 	const presences = require("../status.json");
